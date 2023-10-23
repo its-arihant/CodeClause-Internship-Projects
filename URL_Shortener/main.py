@@ -6,7 +6,11 @@ win.geometry("400x270")
 win.configure(bg="pink")
 # button function
 def short():
-    pass
+    url = entry1.get()
+    s=pyshorteners.Shortener().tinyurl.short(url)
+
+    entry2.insert(END,s)
+    
     
 #label
 Label(win,text="Enter your URL Link",font="impack 17 bold", bg="black", fg="white").pack(fill="x")
