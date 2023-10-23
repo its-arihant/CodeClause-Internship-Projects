@@ -1,4 +1,4 @@
-import pyshortners
+import pyshorteners
 from tkinter import *
 
 win = Tk()
