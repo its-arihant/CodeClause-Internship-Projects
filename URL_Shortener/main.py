@@ -18,7 +18,7 @@ Label(win,text="Enter your URL Link",font="impack 17 bold", bg="black", fg="whit
 entry1= Entry(win,font="10",bd=3,width=30)
 entry1.pack(pady=30)
 # Button
-Button(win, text="submit",font="impact 10 ",bg="blue",fg="white",width="14",command=short).pack()
+Button(win, text="submit",font="Arial 14 bold ",bg="blue",fg="white",width="14",command=short).pack()
 # Entry
 entry2=Entry(win,font="impact 16 bold", bg="pink",width=24,bd=0)
 entry2.pack(pady=30)
